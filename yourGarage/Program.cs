@@ -26,7 +26,7 @@ namespace yourGarage
                 car.Driving();
             }
 
-            var watercrafts = new List<Watercraft> { new Sailboat("black", 33, 4, "sailboat"), new Submarine("gray", 29, 7, "sailboat") };
+            var watercrafts = new List<Watercraft> { new Sailboat("black", 33, 4, "sailboat"), new Submarine("gray", 29, 7, "submarine") };
             foreach (var watercraft in watercrafts)
             {
                 watercraft.Driving();

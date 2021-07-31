@@ -14,10 +14,10 @@ namespace yourGarage
         //    FuelCapacity = fuelCapacity;
         //    PassengerOccupancy = passengerOccupancy;
         //}
-
+        public string Type { get; set; }
         public void Flying()
         {
-            Console.WriteLine($"the {Color} of the aircraft can carry {PassengerOccupancy} people.");
+            Console.WriteLine($"the {Color} {Type} can carry {PassengerOccupancy} people.");
         }
 
         public void Landing()

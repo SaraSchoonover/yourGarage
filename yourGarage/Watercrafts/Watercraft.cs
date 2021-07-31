@@ -14,10 +14,10 @@ namespace yourGarage
         //    FuelCapacity = fuelCapacity;
         //    PassengerOccupancy = passengerOccupancy;
         //}
-
+        public string Type { get; set; }
         public void Driving()
         {
-            Console.WriteLine($"the {Color} submarine can only hold {PassengerOccupancy} people.");
+            Console.WriteLine($"the {Color} {Type} can only hold {PassengerOccupancy} people.");
 
         }
 

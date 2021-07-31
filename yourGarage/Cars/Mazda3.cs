@@ -9,12 +9,14 @@ namespace yourGarage.Cars
     class Mazda3 : Car
     {
         public bool HasHeatedSeats { get; set; }
+        
 
-        public Mazda3(string color, int fuelCapacity, int passengerOccupancy)
+        public Mazda3(string color, int fuelCapacity, int passengerOccupancy, string type)
         {
             Color = color;
             FuelCapacity = fuelCapacity;
             PassengerOccupancy = passengerOccupancy;
+            Type = type;
         }
 
     }

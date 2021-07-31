@@ -10,11 +10,12 @@ namespace yourGarage.Aircrafts
     {
         public string HelicopterType { get; set; }
 
-        public Helicopter(string color, int fuelCapacity, int passengerOccupancy)
+        public Helicopter(string color, int fuelCapacity, int passengerOccupancy, string type)
         {
             Color = color;
             FuelCapacity = fuelCapacity;
             PassengerOccupancy = passengerOccupancy;
+            Type = type;
         }
     }
 }

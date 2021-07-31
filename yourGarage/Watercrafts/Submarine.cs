@@ -10,11 +10,12 @@ namespace yourGarage.Watercrafts
     {
         public bool CanSubmerge { get; set; }
 
-        public Submarine(string color, int passengerOccupancy, int fuelCapacity)
+        public Submarine(string color, int passengerOccupancy, int fuelCapacity, string type)
         {
             Color = color;
             PassengerOccupancy = passengerOccupancy;
             FuelCapacity = fuelCapacity;
+            Type = type;
         }
 
     }
